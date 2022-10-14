@@ -1,4 +1,4 @@
-//1.longest word
+//longest word
 
 const sentence = 'I woke up early today morning';
 // const sentence = 'I went straight to the beach';
@@ -14,8 +14,3 @@ const max = arr.reduce((longWord, curr) => {
 
 const longArr = arr.filter((word) => word.length === max.length);
 console.log(longArr);
-
-//2.capitalize
-
-const newArr = arr.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
-console.log(newArr.join(' '));
